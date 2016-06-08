@@ -35,6 +35,9 @@ nav {
 
 
 .mainFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-top: 20px;
   border-bottom: solid 20px #FFF176;
 }
