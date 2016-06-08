@@ -15,11 +15,6 @@ h2 {
   color: #FFF;
 }
 
-nav {
-  background-color: #795548;
-  display: block;
-  text-align: right;
-}
 
 
 /* Main Styles */
@@ -27,8 +22,14 @@ nav {
 .mainHeader {
   padding: 20px;
   height: 200px;
-  background: #795548 url('../img/mtn-landscape-1.jpg') no-repeat center;
+  background: linear-gradient(#1D2120, transparent 50%),
+              linear-gradient(0deg, #5A5C51, transparent),
+              #795548 url('../img/mtn-landscape-1.jpg') no-repeat center;
   background-size: cover;
+
+
+    /*url('../img/mtn-landscape-1.jpg') no-repeat center;
+  background-size: cover; */
 
 
 }
@@ -39,19 +40,26 @@ nav {
   bottom: 0;
   width: 100%;
   padding-top: 20px;
-  border-bottom: solid 20px #FFF176;
+  border-bottom: solid 20px #BCD5D1;
 }
 
 /*
 
-Color Scheme #1
+Color Scheme #1 (Gradients)
+
+Header: #77C9D4
+Status: #57BC90
+Footer: #015249
+Accent: #A5A5A5
+
+Color Scheme #2
 
 Header: #795548
 Status: #388E3C
 Footer: #FFF176
 Accent: #FFFF00
 
-Alternate Colors
+Color Scheme #3
 
 Header: #1D2120
 Status: #5A5C51
