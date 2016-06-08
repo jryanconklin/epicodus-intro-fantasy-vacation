@@ -7,7 +7,7 @@
 }
 
 body {
-
+  margin: 0;
 }
 
 h1,
@@ -15,7 +15,10 @@ h2 {
   color: #FFF;
 }
 
-
+img {
+  max-width: 100%;
+  margin: 10px;
+}
 
 /* Main Styles */
 
@@ -26,22 +29,48 @@ h2 {
               linear-gradient(0deg, #5A5C51, transparent),
               #795548 url('../img/mtn-landscape-1.jpg') no-repeat center;
   background-size: cover;
-
-
-    /*url('../img/mtn-landscape-1.jpg') no-repeat center;
-  background-size: cover; */
-
-
 }
 
 
 .mainFooter {
-  position: absolute;
-  bottom: 0;
+  clear: both;
   width: 100%;
   padding-top: 20px;
   border-bottom: solid 20px #BCD5D1;
 }
+
+
+/* Floated Images */
+
+.forest,
+.volcano {
+  width: 46%;
+  margin: 0 0 300px 0;
+}
+
+.forest {
+  float: left;
+}
+
+.volcano {
+  float: right;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .forest,
+  .volcano {
+    float: none;
+    width: 100%;
+    }
+  }
 
 /*
 
