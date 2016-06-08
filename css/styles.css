@@ -1,0 +1,58 @@
+
+
+/* Core Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+h1,
+h2 {
+  color: #FFF;
+}
+
+nav {
+  background-color: #795548;
+  display: block;
+  text-align: right;
+}
+
+
+/* Main Styles */
+
+.mainHeader {
+  padding: 20px;
+  height: 200px;
+  background: #795548 url('../img/mtn-landscape-1.jpg') no-repeat center;
+  background-size: cover;
+
+
+}
+
+
+.mainFooter {
+  padding-top: 20px;
+  border-bottom: solid 20px #FFF176;
+}
+
+/*
+
+Color Scheme #1
+
+Header: #795548
+Status: #388E3C
+Footer: #FFF176
+Accent: #FFFF00
+
+Alternate Colors
+
+Header: #1D2120
+Status: #5A5C51
+Footer: #BA9077
+Accent: #BCD5D1
+
+*/
