@@ -70,6 +70,30 @@ $(document).ready(function(){
       $("#ds9").hide();
       $("#mordor").hide();
       $("#shire").hide();
+    } else if ( ds9 > hogwarts && ds9 > shire && ds9 > mordor ) {
+      $("#ds9").fadeIn();
+      window.scrollTo( 0, 0 );
+      $(".mainSection").fadeOut();
+      $(".quizSection").fadeOut();
+      $("#hogwarts").hide();
+      $("#mordor").hide();
+      $("#shire").hide();
+    } else if ( mordor > hogwarts && mordor > shire && mordor > ds9 ) {
+      $("#mordor").fadeIn();
+      window.scrollTo( 0, 0 );
+      $(".mainSection").fadeOut();
+      $(".quizSection").fadeOut();
+      $("#hogwarts").hide();
+      $("#ds9").hide();
+      $("#shire").hide();
+    } else {
+      $("#shire").fadeIn();
+      window.scrollTo( 0, 0 );
+      $(".mainSection").fadeOut();
+      $(".quizSection").fadeOut();
+      $("#hogwarts").hide();
+      $("#ds9").hide();
+      $("#mordor").hide();
     }
 
 
