@@ -1,3 +1,12 @@
+/* ID Selectors */
+
+#results {
+  display: none;
+}
+
+#comingSoon {
+  display: none;
+}
 
 
 /* Core Styles */
@@ -6,22 +15,21 @@
   box-sizing: border-box;
 }
 
+header h1,
 header h3 {
   color: #fff;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, .8);
 }
+
 
 body {
   margin: 0;
 }
 
-h1,
-h2 {
-  color: #FFF;
-}
-
 img {
   max-width: 100%;
   margin: 10px 0 10px 0;
+  border-radius: 1%;
 }
 
 /* Main Styles */
@@ -35,31 +43,53 @@ img {
   background-size: cover;
 }
 
-.mainSection {
+.mainSection,
+.mainFooter {
+  text-align: center;
+}
 
+.quizSection {
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+  padding: 6% 12%;
+  border-top: #1D2120 10px solid;
+  background: #5A5C51 url('../img/forest-pipe.jpg') no-repeat center;
+  background-size: cover;
+  margin: 40px 0 60px;
+  border-radius: 1%;
+  box-shadow: inset 0 0 10px 5px #1D2120;
 }
 
 .mainFooter {
   clear: both;
+  font-size: .75em;
   width: 100%;
-  padding-top: 20px;
-  border-bottom: solid 20px #BCD5D1;
+  padding-top: 50px;
+  border-bottom: solid 10px #BCD5D1;
 }
+
+.quizDivider {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  border-top: 2px solid #BCD5D1;
+}
+
 
 
 /* Floated Images */
 
-.forest,
-.volcano {
+.adventure,
+.staycation {
   width: 46.5%;
   margin: 0 0 30px 0;
 }
 
-.forest {
+.adventure {
   float: left;
 }
 
-.volcano {
+.staycation {
   float: right;
 }
 
@@ -72,12 +102,18 @@ img {
 /* Media Queries */
 
 @media (max-width: 768px) {
-  .forest,
-  .volcano {
+  .adventure,
+  .staycation {
     float: none;
     width: 100%;
-    }
   }
+  .quizSection {
+    font-size: .8em;
+    width: 100%;
+    margin: 0 10px 0 0;
+    padding: 20px;
+  }
+}
 
 /*
 
