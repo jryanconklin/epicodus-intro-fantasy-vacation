@@ -19,7 +19,7 @@ $(document).ready(function(){
     } else if ( heirloom === "maybe" ) {
       ds9 += 2;
     }
-
+    console.log(mordor, ds9, shire, hogwarts);
     if ( item === "ring" ) {
       mordor += 2;
     } else if ( item === "cloak" ) {
@@ -29,7 +29,7 @@ $(document).ready(function(){
     } else if ( item === "fishing" ) {
       shire += 2;
     }
-
+    console.log(mordor, ds9, shire, hogwarts);
     if ( profession === "student"  ) {
       hogwarts += 1;
     } else if ( profession === "starfleet" ) {
@@ -40,7 +40,7 @@ $(document).ready(function(){
     } else if ( profession === "self" ) {
       shire += 2;
     }
-
+    console.log(mordor, ds9, shire, hogwarts);
     if ( problem === "love"  ) {
       hogwarts += 3;
     } else if ( problem === "science" ) {
@@ -50,7 +50,7 @@ $(document).ready(function(){
     } else if ( problem === "fellowship" ) {
       mordor += 3;
     }
-
+    console.log(mordor, ds9, shire, hogwarts);
     if ( destination === "wasteland"  ) {
       mordor += 2;
       ds9 += 1;
@@ -61,7 +61,7 @@ $(document).ready(function(){
     } else if ( destination === "homey" ) {
       shire += 2;
     }
-
+    console.log(mordor, ds9, shire, hogwarts);
     if ( hogwarts >= ds9 && hogwarts >= shire && hogwarts >= mordor ) {
       $("#hogwarts").fadeIn();
       window.scrollTo( 0, 0 );
