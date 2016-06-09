@@ -1,20 +1,24 @@
-# Project Name
---Short Description
+# Epicodus Project #2:
+--Code review project for Epicodus. Vacation chooser!
 
 ## Features
---What does it do?
+--This is a fantasy vacation chooser! Your questions will tally via JavaScript whether or not you'll be going to Mordor, DS9, Hogwarts or staying in the Shire. The result text will show you your ideal fantasy destination!
 
 ##Languages
---List languages
+--HTML
+--CSS
+--Bootstrap
+--JavaScript
+--jQuery
 
 ## Usage
-To view the site, you can go to --Insert your addresses [mehequanna.github.io/portfolio](mehequanna.github.io/portfolio).
-To use the code, you can clone the repository at --Use your addresses [https://github.com/Mehequanna/portfolio](https://github.com/Mehequanna/portfolio).
---Simple use instructions.
+To view the site, you can go to:  [jryanconklin.github.io/fantasy-vacation](jryanconklin.github.io/fantasy-vacation).
+To use the code, you can clone the repository at --Use your addresses [https://github.com/Mehequanna/fantasy-vacation](https://github.com/Mehequanna/fantasy-vacation).
+--Go through the quiz by answering the five questions.
 
 ## Author/s
---Name/s
+--J. Ryan Conklin
 
 ##License
 This work can be used under the The MIT License.
-Copyright (c) 2016 --Name
+Copyright (c) 2016 --J. Ryan Conklin
