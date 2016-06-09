@@ -35,8 +35,9 @@
           <ul class="nav navbar-nav">
             <li><a href="http://jryanconklin.github.io/portfolio/">1| Portfolio</a></li>
             <li class="active"><a href="index.html">2 | Vacation Quiz</a></li>
+            <li id="comingSoon"><a href="#">3| Arrays and Looping (Coming Soon)</a></li>
+            <li id="comingSoon"><a href="#">4| Object-Oriented JavaScript (Coming Soon)</a></li>
             <li><a href="#">Calculator</a></li>
-            <li><a href="#">Food Quiz (Coming Soon)</a></li>
           </ul>
         </div>
       </div>
@@ -49,39 +50,200 @@
 
       <div class="mainSection">
         <h3>An Adventure Awaits You!</h3>
-        <p>
-          Fate and Destiny have consipred to send you on the ultimate vacation! But what are you going to do? Relax at home for a nice <em>staycation</em>? Or are you interested in challenging yourself with something HIGH IMPACT? But wait! You might not fit this narrative at all. Are you a spaceman?
+        <p class="lead">
+          Fate and Destiny have consipred to send you on the ultimate vacation! But what are you going to do? Relax at home for a nice <em>staycation</em>? Or are you interested in challenging yourself with something HIGH IMPACT? You could go out for an epic adventure that changes everything. Even bring a few of your friends (and frienemies) along. But wait! You might not fit this narrative at all. Are you a spaceman? Maybe you're a wizard? Take the test to find out!
         </p>
 
-        <div class="forest">
-          <img src="img/forest.jpg" alt="A Serene Forest"/>
-          <h4>Relax in the Shire!</h4>
+        <div class="adventure">
+          <h4>Adventure!</h4>
+          <img src="img/adventure.jpg" alt="An Exciting Forest"/>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
           </p>
         </div>
 
-        <div class="volcano">
-          <img src="img/volcano.jpg" alt="A Raging Volcano"/>
-          <h4>Take a Scenic Trip to Mordor!</h4>
+        <div class="staycation">
+          <h4>Staycation!</h4>
+          <img src="img/staycation.jpg" alt="A Relaxing House"/>
           <p>
-            One does not simply vacation in Mordor, except maybe you! There's so much to do in the scenic desolation of the Dark Lord's heartland: Get to know the locals by impersonating them for your own safety! Climb to the top of Mount Doom! Struggle with the unbearable weight of your destiny to do the near impossible!
+
           </p>
         </div>
       </div> <!-- End the mainSection Div-->
-
-      <div id="vacation">
-
-      </div> <!-- End the Form / Quiz Div -->
-
-
     </div> <!-- End the Container Div-->
+
+<!-- Quiz Section  -->
+    <div class="container">
+      <div id="quiz" class="quizSection">
+        <h3>Are You Ready to Take the Adventure Quiz?</h3>
+        <form id="vacation">
+
+<!-- Question #1 -->
+          <h4 class="quizDivider">Have You Recieved a Precious Family Heirloom Recently?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="heirloom" value="yes">
+              Totally!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="heirloom" value="no">
+              Nope!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="heirloom" value="maybe">
+              Maybe. I live in a futuristic socialist utopia.
+            </label>
+          </div>
+
+
+
+<!-- Question #2 -->
+          <h4 class="quizDivider">What's an Item You Never Leave the House Without?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="ring">
+              The Family Ring
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="cloak">
+              My Dad's Old Cloak
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="phaser">
+              My Laser Pistol
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="item" value="fishing">
+              A Fishing Pole
+            </label>
+          </div>
+
+
+
+<!-- Question #3 -->
+          <h4 class="quizDivider">What's Your Profession?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="profession" value="student">
+              Student
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="profession" value="starfleet">
+              Military
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="profession" value="heir">
+              Heir of a Great Fortune
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="profession" value="self">
+              Self-Employed
+            </label>
+          </div>
+
+
+<!-- Question #4 -->
+          <h4 class="quizDivider">How Do You Deal with Problems?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="problem" value="love">
+              The Power of Love
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="problem" value="science">
+              The Power of Science
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="problem" value="avoid">
+              The Power of Avoiding Problems
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="problem" value="fellowship">
+              The Power of Fellowship
+            </label>
+          </div>
+
+
+
+<!-- Question #5 -->
+          <h4 class="quizDivider">Finally, What's Your Ideal Destination?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="destination" value="wasteland">
+              A Barren Wasteland
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="destination" value="castle">
+              Castles are the Best!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="destination" value="space">
+              Space is the Place!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="destination" value="homey">
+              Someplace that Feels Like Home
+            </label>
+          </div>
+
+          <div class="quizDivider">
+
+          </div>
+          <button type="button" name="button" class="btn btn-primary">Submit</button>
+        </form>
+      </div> <!-- End the Form / Quiz Div -->
+    </div><!-- End the Container Div-->
+
+<!-- Results Section -->
+    <div class="container">
+      <div id="hogwarts" class="resultHogwarts">
+
+      </div>
+      <div id="ds9" class="resultDS9">
+
+      </div>
+      <div id="shire" class="resultShire">
+
+      </div>
+      <div id="mordor" class="resultMordor">
+
+      </div>
+    </div>
+
 
 
 <!-- Footer -->
     <footer id"#bottom" class="mainFooter">
       <div class="container-fluid">
-        <p>All Rights Reserved to J. Ryan Conklin.</p>
+        <p>All Rights Reserved to J. Ryan Conklin for the Website. IP for things I like obviously belongs to someone else.</p>
         <a href="#top">Back to top &raquo;</a>
       </div>
     </footer>
