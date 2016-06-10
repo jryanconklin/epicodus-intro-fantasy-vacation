@@ -13,7 +13,7 @@
 
 ## Usage
 To view the site, you can go to:  [jryanconklin.github.io/fantasy-vacation](jryanconklin.github.io/fantasy-vacation).
-To use the code, you can clone the repository at --Use your addresses [https://github.com/Mehequanna/fantasy-vacation](https://github.com/Mehequanna/fantasy-vacation).
+To use the code, you can clone the repository at --Use your addresses [https://github.com/Mehequanna/fantasy-vacation](https://github.com/jryanconklin/fantasy-vacation).
 --Go through the quiz by answering the five questions.
 
 ## Author/s
