@@ -78,6 +78,15 @@ img {
   border-top: 2px solid #BCD5D1;
 }
 
+.resultHogwarts,
+.resultDS9,
+.resultShire,
+.resultMordor
+.container {
+  min-height: calc(100vh - 300px);
+  text-align: center;
+}
+
 .resultHogwarts {
   color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
